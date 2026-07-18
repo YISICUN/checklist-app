@@ -1,0 +1,6 @@
+{
+  "appId": "com.pgyisicun.checklist",
+  "appName": "checklist-app",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
