@@ -1,0 +1,44 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# --- 新增：Electron 与 Node 开发关键忽略项 ---
+node_modules/
+dist/
+release/
+*.log
+*.tmp
+# 忽略掉你提到的那些打包缓存
+win32-x64-template-*/
+# 忽略掉你打包好的最终产物，防止 Git 仓库变得过大
+ChecklistTool-win32-x64/
